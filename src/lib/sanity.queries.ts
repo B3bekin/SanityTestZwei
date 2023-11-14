@@ -34,4 +34,5 @@ export interface Post {
   mainImage?: ImageAsset
   body: PortableTextBlock[]
   tags?: string[]
+  //true?: boolean
 }

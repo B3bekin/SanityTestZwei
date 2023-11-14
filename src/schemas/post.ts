@@ -39,6 +39,10 @@ export default defineType({
       title: 'Body',
       type: 'blockContent',
     }),
+    // booleanField({
+    //   true: 'Published',
+    //   false: 'Not published',
+    // }),
     defineField({
       name: 'tags',
       title: 'Tagy',
