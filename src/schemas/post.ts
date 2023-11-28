@@ -21,6 +21,11 @@ export default defineType({
       },
     }),
     defineField({
+      name: 'favoriteColor',
+      title: 'Favorite color',
+      type: 'color',
+    }),
+    defineField({
       name: 'excerpt',
       title: 'Excerpt',
       type: 'text',

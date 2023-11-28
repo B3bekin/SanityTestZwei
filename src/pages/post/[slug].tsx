@@ -35,6 +35,8 @@ export const getStaticProps: GetStaticProps<
     }
   }
 
+  console.log(post)
+  
   return {
     props: {
       draftMode,

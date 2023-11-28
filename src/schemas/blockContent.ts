@@ -1,4 +1,5 @@
 import { defineArrayMember, defineType } from 'sanity'
+import {colorInput} from '@sanity/color-input'
 
 /**
  * This is the schema definition for the rich text fields used for
